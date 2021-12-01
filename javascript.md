@@ -11,7 +11,7 @@
 Unicode：JavaScript**程序**是用Unicode字符集编写的。故在字符串和注释中可使用任意Unicode字符，建议标识符只用ASCII字母和数字。转义序列（**\u后跟4位十六进制数字**）可令ASCII字符来表示Unicode字符，在注释中会被忽略。注意Unicode归一化。
 
 ### 2. 类型、值和变量
-* 原始类型： 数值、（文本）字符串、布尔（真）值、null、undefined、Symbol（符号）；6
+* 原始类型： 数值、（文本）字符串、布尔（真）值、**null、undefined**、Symbol（符号）；6
 * 对象类型：数组、Set、Map、Date、Error、函数、类等
 >任何不是原始类型的值都是对象，对象（对象类型的成员）是属性的集合。对象类型可以修改（mutable），但原始类型不可以修改（immutable），理解字符串不可修改。
 >
@@ -119,5 +119,8 @@ Unicode：JavaScript**程序**是用Unicode字符集编写的。故在字符串�
        | 无偏好算法   | 取绝被转换对象的类，若为Date则用偏字符串算法，其他用偏数值算法 |
    
 9. 变量声明与赋值
+
+   * 使用let和const声明
+   * 使用var的变量声明
 
 11. 
